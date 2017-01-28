@@ -11,7 +11,7 @@ class Pages extends CI_Controller {
         $this->load->database();
 
         // load the helpers
-        $this->load->helper(["language","maintenance_page"]);
+        $this->load->helper(["language","maintenance_page","menu"]);
 
         //load hthe library
         $this->load->library(["form_validation","ion_auth"]);
@@ -49,5 +49,6 @@ class Pages extends CI_Controller {
         $this->load->view("backoffice/pages/_content",$this->data);
         $this->load->view("backoffice/_footer",$this->data);
         $this->load->view("backoffice/footer",$this->data);
+
 	}
 }

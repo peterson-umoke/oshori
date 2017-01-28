@@ -56,7 +56,7 @@
         <li><a href="http://www.blog.oshori.com" target="_blank"><i class="fa fa-link"></i> View Blog</a></li>
       </ul>
     </li>
-    <li class="treeview <?php show_current_class("index") || show_current_class("add_new_page") ||show_current_class("edit_page") ; ?>">
+    <li class="treeview <?php show_current_class("pages/index") || show_current_class("add_new_page") ||show_current_class("edit_page") ; ?>">
       <a href="#">
         <i class="fa fa-pagelines"></i> <span>Pages</span>
         <span class="pull-right-container">
@@ -64,7 +64,7 @@
         </span>
       </a>
       <ul class="treeview-menu">
-        <li class="<?php show_current_class("index") || show_current_class("edit_page"); ?>"><a href="<?php echo site_url("backoffice/pages/all_pages"); ?>"><i class="fa fa-pagelines"></i> All Pages</a></li>
+        <li class="<?php show_current_class("pages/index") || show_current_class("edit_page"); ?>"><a href="<?php echo site_url("backoffice/pages/all_pages"); ?>"><i class="fa fa-pagelines"></i> All Pages</a></li>
         <li class="<?php echo show_current_class("add_new_page"); ?>"><a href="<?php echo site_url("backoffice/pages/add_new_page"); ?>"><i class="fa fa-pencil"></i> Add a new Page</a></li>
       </ul>
     </li>

@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['backoffice'] = "backoffice/account";
 $route['backoffice/login'] = "backoffice/account";
+$route['login'] = "backoffice/account";
 $route['backoffice/dashboard'] = "backoffice/dashboard";
 $route['backoffice/dashboard/welcome'] = "backoffice/dashboard";
 $route['backoffice/pages/all_pages'] = "backoffice/pages/index";
