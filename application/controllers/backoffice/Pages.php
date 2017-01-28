@@ -34,7 +34,7 @@ class Pages extends CI_Controller {
         $this->data['site_name'] = $this->config->item("site_name");
 	}
 
-	public function index() {
+	public function all_pages() {
         $this->data['body_class'] = "hold-transition skin-blue sidebar-mini";
         $this->data['user'] = $this->ion_auth->user()->row();
         $identity = $this->data['user']->email;
